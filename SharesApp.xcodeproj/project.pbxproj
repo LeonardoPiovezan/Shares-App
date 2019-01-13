@@ -34,8 +34,6 @@
 		1A82F03A21EA3C7700BEB1C9 /* SellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A82F03921EA3C7700BEB1C9 /* SellView.swift */; };
 		1A82F03C21EA3C8800BEB1C9 /* SellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A82F03B21EA3C8800BEB1C9 /* SellViewModel.swift */; };
 		1A82F03E21EA3D0000BEB1C9 /* SellViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A82F03D21EA3D0000BEB1C9 /* SellViewScreen.swift */; };
-		1A82F04021EA54CF00BEB1C9 /* SellCertificateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A82F03F21EA54CF00BEB1C9 /* SellCertificateTableViewCell.swift */; };
-		1A82F04621EA658600BEB1C9 /* MockSharesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A82F04521EA658600BEB1C9 /* MockSharesService.swift */; };
 		1A82F04821EA659700BEB1C9 /* MockSharesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A82F04721EA659700BEB1C9 /* MockSharesRepository.swift */; };
 		1A82F04B21EA672600BEB1C9 /* SharesViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A82F04A21EA672600BEB1C9 /* SharesViewModelSpec.swift */; };
 		1A83097821EB043D0074844B /* TitleAndDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A83097721EB043D0074844B /* TitleAndDescriptionView.swift */; };
@@ -107,8 +105,6 @@
 		1A82F03921EA3C7700BEB1C9 /* SellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellView.swift; sourceTree = "<group>"; };
 		1A82F03B21EA3C8800BEB1C9 /* SellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellViewModel.swift; sourceTree = "<group>"; };
 		1A82F03D21EA3D0000BEB1C9 /* SellViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellViewScreen.swift; sourceTree = "<group>"; };
-		1A82F03F21EA54CF00BEB1C9 /* SellCertificateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellCertificateTableViewCell.swift; sourceTree = "<group>"; };
-		1A82F04521EA658600BEB1C9 /* MockSharesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSharesService.swift; sourceTree = "<group>"; };
 		1A82F04721EA659700BEB1C9 /* MockSharesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSharesRepository.swift; sourceTree = "<group>"; };
 		1A82F04A21EA672600BEB1C9 /* SharesViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharesViewModelSpec.swift; sourceTree = "<group>"; };
 		1A83097721EB043D0074844B /* TitleAndDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndDescriptionView.swift; sourceTree = "<group>"; };
@@ -341,7 +337,6 @@
 			isa = PBXGroup;
 			children = (
 				1A82F02F21EA170700BEB1C9 /* CertificateTableViewCell.swift */,
-				1A82F03F21EA54CF00BEB1C9 /* SellCertificateTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -380,17 +375,8 @@
 			isa = PBXGroup;
 			children = (
 				1A82F04421EA652F00BEB1C9 /* Repositories */,
-				1A82F04321EA652700BEB1C9 /* Services */,
 			);
 			path = Mocks;
-			sourceTree = "<group>";
-		};
-		1A82F04321EA652700BEB1C9 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				1A82F04521EA658600BEB1C9 /* MockSharesService.swift */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		1A82F04421EA652F00BEB1C9 /* Repositories */ = {
@@ -805,7 +791,6 @@
 				1A82F01521E9739500BEB1C9 /* SharesViewScreen.swift in Sources */,
 				1A82F03321EA1FFF00BEB1C9 /* ShadowView.swift in Sources */,
 				1A82F00E21E9710900BEB1C9 /* DefaultContainer+Repositories.swift in Sources */,
-				1A82F04021EA54CF00BEB1C9 /* SellCertificateTableViewCell.swift in Sources */,
 				1A82F00A21E9704800BEB1C9 /* DefaultContainer+Views.swift in Sources */,
 				1A83098421EBA3DD0074844B /* CircularProgressView.swift in Sources */,
 				1A83097C21EB08BD0074844B /* TitleAndTextFieldView.swift in Sources */,
@@ -838,7 +823,6 @@
 				1A83099221EBE1E20074844B /* KIF+Extensions.swift in Sources */,
 				1A82F04B21EA672600BEB1C9 /* SharesViewModelSpec.swift in Sources */,
 				1A83099421EBE2300074844B /* CommonSteps.swift in Sources */,
-				1A82F04621EA658600BEB1C9 /* MockSharesService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

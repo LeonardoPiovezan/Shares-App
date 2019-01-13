@@ -68,15 +68,4 @@ class SharesViewModelSpec: QuickSpec {
             }
         }
     }
-
-    func initializeTest(shareResult: Result<Share> = Result.success(Share(name: "", symbol: "", value: 0.0)),
-                        certificatesResult: Result<[Certificate]> = Result.success([Certificate]()),
-                        sellResult: Result<Bool> = Result.success(true)) {
-        self.scheduler = TestScheduler(initialClock: 0)
-        self.repository = MockSharesRepository(shareResult: shareResult,
-                                               certificatesResult: certificatesResult,
-                                               sellResult: sellResult)
-        self.subject = SharesViewModel(repository: self.repository)
-        self.disposeBag = DisposeBag()
-    }
 }
